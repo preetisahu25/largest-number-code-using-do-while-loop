@@ -1,0 +1,16 @@
+public class LargestNumberDoWhile {
+    public static void main(String[] args) {
+        int number = 1;
+        int largest = number;
+
+        do {
+            if (number > largest) {
+                largest = number;
+            }
+            number++;
+        } while (number <= 1000);
+
+        System.out.println("The largest number between 1 and 1000 is: " + largest);
+    }
+}
+
